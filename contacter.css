@@ -1,0 +1,46 @@
+#elbody {
+  background-color: #f1f1f1;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+  margin-top: 7em;
+  margin-bottom: 1em;
+  height: 100px;
+  width: 120px;
+}
+
+#formulaire {
+  border: 1px solid #ccd0d4;
+  background-color: white;
+  margin: 0 auto;
+  width: 280px;
+  text-align: left;
+  padding: 30px 5px 20px 20px;
+}
+.input {
+  border-radius: 0.5em;
+  width: 250px;
+  height: 30px;
+  margin-top: 0px;
+}
+input:focus {
+  border-color: rgb(60, 58, 212);
+}
+#submit {
+  text-align: right;
+  background-color: #0071a1;
+  color: white;
+  border-radius: 0.5em;
+  height: 35px;
+}
+#remember {
+  margin-right: 4.15em;
+}
+.label {
+  color: rgb(82, 82, 82);
+  font-size: 14px;
+}
