@@ -1,0 +1,28 @@
+#fond {
+  background-image: url(./img/avatar.jpg);
+  background-size: 100% 150%;
+  color: black;
+}
+.titre {
+  margin-bottom: 300px;
+  text-align: center;
+}
+#header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  font-size: 40px;
+  margin: 10px;
+}
+#aang {
+  font-size: 50px;
+  margin: 20px;
+}
+.barnav {
+  margin: 40px;
+}
+.centre {
+  text-align: center;
+}
