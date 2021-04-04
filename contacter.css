@@ -25,21 +25,22 @@
   border-radius: 0.5em;
   width: 250px;
   height: 30px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 input:focus {
   border-color: rgb(60, 58, 212);
 }
 #submit {
-  text-align: right;
-  background-color: #0071a1;
+  width: 90%;
+  margin-right: 20%;
+  margin-top: 20%;
+  text-align: center;
+  background-color: #a10000;
   color: white;
   border-radius: 0.5em;
   height: 35px;
 }
-#remember {
-  margin-right: 4.15em;
-}
+
 .label {
   color: rgb(82, 82, 82);
   font-size: 14px;
