@@ -1,0 +1,20 @@
+#header {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+#carte {
+  margin: 5%;
+}
+a {
+  font-size: 40px;
+  margin: 10px;
+}
+#aang {
+  font-size: 50px;
+  margin: 20px;
+}
+.barnav {
+  margin: 40px;
+}
