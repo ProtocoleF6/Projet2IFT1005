@@ -1,3 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*  Nikhil Raj A, Stack Overflow, 2/05/2017
+    https://stackoverflow.com/questions/21174344/bootstrap-navbar-overtop-carousel */
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
+}
+
+.navtext {
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
 #header {
   color: rgb(0, 0, 0);
   display: flex;

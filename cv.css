@@ -1,31 +1,101 @@
-#fond {
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* #fond {
   background-image: url(./img/avatar.jpg);
   background-size: 100% 150%;
   color: black;
-}
-.titre {
+} */
+
+/* .titre {
   margin-bottom: 300px;
   text-align: center;
+} */
+
+/*  Nikhil Raj A, Stack Overflow, 2/05/2017
+    https://stackoverflow.com/questions/21174344/bootstrap-navbar-overtop-carousel */
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
 }
-#header {
+
+.navtext {
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+/*  Rob Howells, Stack Overflow, 13/04/2016
+    https://stackoverflow.com/questions/36586316/re-positioning-bootstrap-carousel-caption */
+.carousel-inner > .item {
+  position: relative;
+  max-height: 600px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-15%);
+}
+
+/* #header {
   color: white;
   display: flex;
   justify-content: space-between;
+} */
+
+.title {
+  font-size: 65px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 }
+
+.slide {
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
 a {
   font-size: 40px;
   margin: 10px;
 }
-#aang {
-  font-size: 50px;
-  margin: 20px;
+
+#about {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.barnav {
-  margin: 40px;
+
+#abouttitle {
+  font-size: 30px;
+  letter-spacing: 3px;
 }
+
+#aboutsubtitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#abouttext {
+  text-align: justify;
+}
+
+#border {
+  border-right: 5px dashed orange;
+  border-top: 5px dashed orange;
+  padding-right: 15px;
+  padding-top: 15px;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+
 .centre {
   text-align: center;
 }
+
 .paragraphe {
   width: 80%;
 }
