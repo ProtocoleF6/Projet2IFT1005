@@ -1,16 +1,22 @@
-#elbody {
-  background-color: #f1f1f1;
-  align-content: center;
-  align-items: center;
-  text-align: center;
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-#logo {
-  margin-top: 7em;
-  margin-bottom: 1em;
-  height: 100px;
-  width: 120px;
+.navtext {
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: orange;
 }
 
 #formulaire {
@@ -20,24 +26,42 @@
   width: 280px;
   text-align: left;
   padding: 30px 5px 20px 20px;
+  align-content: center;
 }
+
 .input {
-  border-radius: 0.5em;
-  width: 250px;
+  background-color: rgb(236, 235, 235);
+  border: none;
+  width: 240px;
   height: 30px;
   margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
 }
+
+select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 70%;
+}
+
 input:focus {
   border-color: rgb(60, 58, 212);
 }
+
+textarea {
+  width: 95%;
+  height: 150px;
+}
+
 #submit {
   width: 90%;
   margin-right: 20%;
   margin-top: 20%;
   text-align: center;
-  background-color: #a10000;
-  color: white;
-  border-radius: 0.5em;
+  background-color: orange;
+  color: black;
+  border: none;
   height: 35px;
 }
 

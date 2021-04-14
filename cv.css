@@ -69,7 +69,7 @@ a {
   margin-bottom: 50px;
 }
 
-#abouttitle {
+.abouttitle {
   font-size: 30px;
   letter-spacing: 3px;
 }
@@ -91,6 +91,61 @@ a {
   border-left: transparent;
   border-bottom: transparent;
 }
+
+#about button {
+  background-color: orange;
+  border: none;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+#about button:hover {
+  background-color: rgb(252, 216, 149);
+}
+
+#about a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.experiencetitle {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: orange;
+}
+
+#experience .col {
+  text-align: justify;
+}
+
+#experience .header {
+  background-color: orange;
+  box-shadow: tomato;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#experience a {
+  font-size: 20px;
+}
+
+#experience a:hover {
+  color:rgb(252, 216, 149);
+}
+
 
 .centre {
   text-align: center;
