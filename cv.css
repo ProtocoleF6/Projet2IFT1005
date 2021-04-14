@@ -1,6 +1,5 @@
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* #fond {
@@ -143,9 +142,8 @@ a {
 }
 
 #experience a:hover {
-  color:rgb(252, 216, 149);
+  color: rgb(252, 216, 149);
 }
-
 
 .centre {
   text-align: center;
@@ -153,4 +151,17 @@ a {
 
 .paragraphe {
   width: 80%;
+}
+#faitsamusants {
+  margin-top: 4%;
+  margin-left: 12%;
+  text-align: center;
+  margin-right: 12%;
+  background-color: orange;
+}
+#listfaits {
+  margin-bottom: 3%;
+  text-align: left;
+  font-size: x-large;
+  list-style-type: square;
 }
