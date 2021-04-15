@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
 }
 
 /* #fond {
@@ -82,7 +83,7 @@ a {
   text-align: justify;
 }
 
-#border {
+.imageborder {
   border-right: 5px dashed orange;
   border-top: 5px dashed orange;
   padding-right: 15px;
@@ -112,6 +113,11 @@ a {
   text-decoration: none;
 }
 
+#experience {
+  background-color: orange;
+  padding-bottom: 35px;
+}
+
 .experiencetitle {
   text-align: center;
   font-size: 35px;
@@ -121,7 +127,7 @@ a {
   padding-bottom: 8px;
   text-decoration: underline;
   text-decoration-style: dashed;
-  text-decoration-color: orange;
+  text-decoration-color: rgb(255, 255, 255);
 }
 
 #experience .col {
@@ -129,12 +135,18 @@ a {
 }
 
 #experience .header {
-  background-color: orange;
+  background-color: rgb(255, 255, 255);
   box-shadow: tomato;
   text-align: center;
   margin-bottom: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+#experience .col {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #experience a {
@@ -151,14 +163,47 @@ a {
 
 .paragraphe {
   width: 80%;
+  margin-left: 15px;
 }
+
 #faitsamusants {
   margin-top: 4%;
   margin-left: 12%;
   text-align: center;
   margin-right: 12%;
-  background-color: orange;
+  background-color: rgb(255, 255, 255);
+  border: orange;
+  border-style: dashed;
 }
+
+
+.progress {
+  background-color: white;
+  width: 50%;
+}
+
+.progressbar {
+  color: black;
+  border-radius: none;
+}
+
+.progresstext {
+  color: black;
+}
+
+.diverstitle {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: orange;
+}
+
+
 #listfaits {
   margin-bottom: 3%;
   text-align: left;
