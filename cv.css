@@ -1,18 +1,8 @@
+/*antoine leblanc et augustine poirier*/
 body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
 }
-
-/* #fond {
-  background-image: url(./img/avatar.jpg);
-  background-size: 100% 150%;
-  color: black;
-} */
-
-/* .titre {
-  margin-bottom: 300px;
-  text-align: center;
-} */
 
 /*  Nikhil Raj A, Stack Overflow, 2/05/2017
     https://stackoverflow.com/questions/21174344/bootstrap-navbar-overtop-carousel */
@@ -40,12 +30,6 @@ body {
   top: 50%;
   transform: translateY(-15%);
 }
-
-/* #header {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-} */
 
 .title {
   font-size: 65px;
@@ -176,7 +160,6 @@ a {
   border-style: dashed;
 }
 
-
 .progress {
   background-color: white;
   width: 50%;
@@ -203,10 +186,12 @@ a {
   text-decoration-color: orange;
 }
 
-
 #listfaits {
   margin-bottom: 3%;
   text-align: left;
   font-size: x-large;
   list-style-type: square;
+}
+.bouton {
+  font-weight: bold;
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
-<html>
+<!-- antoine leblanc et augustine poirier-->
+<html lang="fr">
   <head>
+    <meta charset="UTF-8" />
     <link href="./compagnon.css" rel="stylesheet" />
     <title>Mes compagnons</title>
     <link
@@ -10,22 +11,31 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <script src="./script/script.js"></script>
+    <script src="./script/scriptcompagon.js"></script>
   </head>
   <body onload="ajouterQuote()">
     <div id="header">
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent">
-      
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: transparent"
+      >
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" a href="./cv.html"><p class="navtext">Accueil</p></a>
+              <a class="nav-link" href="./cv.html"
+                ><p class="navtext">Accueil</p></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> <p class="navtext">Mes amis</p> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">
+                <p class="navtext">Mes amis</p>
+                <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" a href="./contacter.html"><p class="navtext">Me contacter</p></a>
+              <a class="nav-link" href="./contacter.html"
+                ><p class="navtext">Me contacter</p></a
+              >
             </li>
           </ul>
         </div>
@@ -33,10 +43,16 @@
     </div>
 
     <div id="compagnons">
+      <h1 id="titrecompagnons">Mes compagnons</h1>
       <div class="container mb-3" style="max-width: 80%">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/katara.png" class="container-img" alt="..." />
+            <img
+              src="./img/katara.png"
+              class="container-img"
+              alt="photo katara"
+              id="photokatara"
+            />
           </div>
 
           <div class="col-md-8">
@@ -46,16 +62,16 @@
                 La première chose qu’Aang a vue en se réveillant de son sommeil
                 de cent ans était le visage de la maître de l’eau de quatorze
                 ans, Katara, qui était sa libératrice de l’iceberg, avec son
-                frère de quinze ans, Sokka. Tout au long de son séjour au
-                pôle Sud, Aang tissa instantanément un lien étroit avec elle ;
-                ils se relièrent sur leur flexion et Katara plaça instantanément
-                beaucoup de confiance sur le jeune garçon. Après avoir
-                commencé à voyager ensemble, leur relation n’a fait que se
-                renforcer et beaucoup d’actions et de bouffonneries d’Aang ont
-                été motivées par son désir d’impressionner Katara et d’attirer
-                son attention; par exemple, quand ils ont visité l’île Kyoshi,
-                il a été idolâtré par les enfants là-bas mais principalement
-                ignoré par Katara, à sa grande déception.
+                frère de quinze ans, Sokka. Tout au long de son séjour au pôle
+                Sud, Aang tissa instantanément un lien étroit avec elle ; ils se
+                relièrent sur leur flexion et Katara plaça instantanément
+                beaucoup de confiance sur le jeune garçon. Après avoir commencé
+                à voyager ensemble, leur relation n’a fait que se renforcer et
+                beaucoup d’actions et de bouffonneries d’Aang ont été motivées
+                par son désir d’impressionner Katara et d’attirer son attention;
+                par exemple, quand ils ont visité l’île Kyoshi, il a été
+                idolâtré par les enfants là-bas mais principalement ignoré par
+                Katara, à sa grande déception.
               </p>
               <p class="container-text">
                 <b id="quotekatara">Quote blabal</b> - Katara
@@ -67,7 +83,12 @@
       <div class="container mb-3" style="max-width: 80%">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/appa.png" class="container-img" alt="..." />
+            <img
+              src="./img/appa.png"
+              class="container-img"
+              alt="photo appa"
+              id="photoappa"
+            />
           </div>
 
           <div class="col-md-8">
@@ -86,7 +107,9 @@
                 sommeil, notant qu’ils pouvaient tous deux être les derniers de
                 leur espèce.
               </p>
-              <p class="container-text"><b id="quoteappa">Quote blabal</b> - Appa</p>
+              <p class="container-text">
+                <b id="quoteappa">Quote blabal</b> - Appa
+              </p>
             </div>
           </div>
         </div>
@@ -94,7 +117,12 @@
       <div class="container mb-3" style="max-width: 80%">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/Sokka.png" class="container-img" alt="..." />
+            <img
+              src="./img/Sokka.png"
+              class="container-img"
+              alt="photo sokka"
+              id="photosokka"
+            />
           </div>
 
           <div class="col-md-8">
@@ -126,22 +154,31 @@
       <div class="container mb-3" style="max-width: 80%">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/toph.png" class="container-img" alt="..." />
+            <img
+              src="./img/Top.png"
+              class="container-img"
+              alt="photo toph"
+              id="phototoph"
+            />
           </div>
 
           <div class="col-md-8">
             <div class="container-body">
               <h2 class="container-title">Toph</h2>
               <p class="container-text">
-                Toph Beifong  est un Maître de la Terre et une aveugle, elle est l'un des 
-                plus puissants maîtres de son temps, et entra dans la légende comme étant 
-                celle qui découvrit la Maîtrise du Métal. Aveugle de naissance, Toph était 
-                surprotégée par ses parents, Lao et Poppy Beifong. Lors d'une rencontre avec 
-                des taupes-blaireaux, des animaux maîtres de la terre également aveugles, elle 
-                apprit comment utiliser la maîtrise de la Terre comme une extension de ses sens. 
-                Cela lui donna la capacité de "voir" toute vibration se produisant dans le sol.
+                Toph Beifong est un Maître de la Terre et une aveugle, elle est
+                l'un des plus puissants maîtres de son temps, et entra dans la
+                légende comme étant celle qui découvrit la Maîtrise du Métal.
+                Aveugle de naissance, Toph était surprotégée par ses parents,
+                Lao et Poppy Beifong. Lors d'une rencontre avec des
+                taupes-blaireaux, des animaux maîtres de la terre également
+                aveugles, elle apprit comment utiliser la maîtrise de la Terre
+                comme une extension de ses sens. Cela lui donna la capacité de
+                "voir" toute vibration se produisant dans le sol.
               </p>
-              <p class="container-text"><b id="quotetoph">Quote blabal</b> - Toph</p>
+              <p class="container-text">
+                <b id="quotetoph">Quote blabal</b> - Toph
+              </p>
             </div>
           </div>
         </div>
@@ -149,28 +186,35 @@
       <div class="container mb-3" style="max-width: 80%">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/zuko.png" class="container-img" alt="..." />
+            <img
+              src="./img/zuko.png"
+              class="container-img"
+              alt="photo zuko"
+              id="photozuko"
+            />
           </div>
 
           <div class="col-md-8">
             <div class="container-body">
               <h2 class="container-title">Zuko</h2>
               <p class="container-text">
-                Zuko est un maître du feu, né en tant que prince dans la
-                Famille Royale de la Nation du Feu, qui a régné en tant que
-                Seigneur du Feu de 100 AG jusqu’à son abdication en 167 AG. À
-                l’origine, le principal ennemi de l’équipe Avatar, Zuko a
-                consacré trois ans à tenter de capturer l’Avatar perdu depuis
-                longtemps pour mettre fin à son exil et regagner son honneur en
-                tant que Prince héritier de la Nation du Feu. Il est
-                reconnaissable par la cicatrice de brûlure distinctive sur le
-                côté gauche de son visage, de son sourcil à sa joue, qui lui a
-                été donnée par son père, Le Seigneur du Feu Ozai, peu avant son
-                bannissement à la suite d’un incident dans lequel il a
-                involontairement manqué de respect à son père en parlant hors de
-                son tour et en refusant un duel.
+                Zuko est un maître du feu, né en tant que prince dans la Famille
+                Royale de la Nation du Feu, qui a régné en tant que Seigneur du
+                Feu de 100 AG jusqu’à son abdication en 167 AG. À l’origine, le
+                principal ennemi de l’équipe Avatar, Zuko a consacré trois ans à
+                tenter de capturer l’Avatar perdu depuis longtemps pour mettre
+                fin à son exil et regagner son honneur en tant que Prince
+                héritier de la Nation du Feu. Il est reconnaissable par la
+                cicatrice de brûlure distinctive sur le côté gauche de son
+                visage, de son sourcil à sa joue, qui lui a été donnée par son
+                père, Le Seigneur du Feu Ozai, peu avant son bannissement à la
+                suite d’un incident dans lequel il a involontairement manqué de
+                respect à son père en parlant hors de son tour et en refusant un
+                duel.
               </p>
-              <p class="container-text"><b id="quotezuko">Quote blabal</b> - Zuko</p>
+              <p class="container-text">
+                <b id="quotezuko">Quote blabal</b> - Zuko
+              </p>
             </div>
           </div>
         </div>

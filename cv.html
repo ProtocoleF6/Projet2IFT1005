@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
-<html>
+<!-- antoine leblanc et augustine poirier-->
+<html lang="fr">
   <head>
+    <meta charset="UTF-8" />
     <title>Aang</title>
     <link
       rel="stylesheet"
@@ -10,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link href="./cv.css" rel="stylesheet" />
+    <script src="./script/scriptcv.js"></script>
   </head>
 
   <body>
@@ -26,12 +28,12 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="./compagnon.html"
+            <a class="nav-link" href="./compagnon.html"
               ><p class="navtext">Mes amis</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="./contacter.html"
+            <a class="nav-link" href="./contacter.html"
               ><p class="navtext">Me contacter</p></a
             >
           </li>
@@ -54,7 +56,7 @@
             <div class="carousel-caption d-none d-md-block">
               <div class="slide">
                 <p style="font-size: 25px">BIENVENUE</p>
-                <strong><p class="title">JE SUIS AANG</p></strong>
+                <strong class="title">JE SUIS AANG</strong>
                 <p style="font-size: 25px">AVATAR & DERNIER MAÎTRE DE L'AIR</p>
               </div>
             </div>
@@ -68,7 +70,7 @@
             <div class="carousel-caption d-none d-md-block">
               <div class="slide">
                 <p style="font-size: 25px">BIENVENUE</p>
-                <strong><p class="title">JE SUIS AANG</p></strong>
+                <strong class="title">JE SUIS AANG</strong>
                 <p style="font-size: 25px">AVATAR & DERNIER MAÎTRE DE L'AIR</p>
               </div>
             </div>
@@ -95,9 +97,15 @@
       </div>
     </div>
     <div id="about">
-      <div class="container" id="about">
+      <div class="container" id="aboutaang">
         <div class="row">
-          <div class="col-md-4"><img class="imageborder" src="./img/aang4.png" /></div>
+          <div class="col-md-4">
+            <img
+              class="imageborder"
+              src="./img/aang4.png"
+              alt="photo de aang"
+            />
+          </div>
           <div class="col-md-6">
             <p class="lead"></p>
             <div style="line-height: 10px">
@@ -118,11 +126,11 @@
               de détruire les autres peuples.
             </div>
             <br />
-            <button>
-              <b><a href="./contacter.html">Me contacter</a></b>
+            <button class="bouton" onclick="changePageContacter()">
+              Me contacter
             </button>
-            <button>
-              <b><a href="./compagnon.html">Mes amis</a></b>
+            <button class="bouton" onclick="changePageCompagnon()">
+              Mes amis
             </button>
           </div>
         </div>
@@ -311,28 +319,17 @@
         <div class="row">
           <div class="col-md-6">
             <ul id="listfaits">
-              <li>Je maîtrise les quatre éléments</li> </br>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><div class="progresstext"><strong>AIR</strong></div></div>
-              </div></br>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div class="progresstext"><strong>EAU</strong></div></div>
-              </div></br>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progresstext"><strong>TERRE</strong></div></div>
-              </div></br>
-              <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div class="progresstext"><strong>FEU</strong></div></div>
-              </div></br>
+              <li>Je maîtrise les quatre éléments</li>
               <li>J'ai beaucoup d'amis</li>
               <li>Je ne suis pas vraiment chauve</li>
+              <li>J'ai sauvé le monde de la tyrannie de la tribu du feu</li>
             </ul>
           </div>
-          <div class="col-md-4"><img src="./img/aang5.png" /></div>
+          <div class="col-md-4">
+            <img src="./img/aang5.png" alt="photo de aang" />
+          </div>
         </div>
       </div>
-      
-      
     </div>
 
     <script
